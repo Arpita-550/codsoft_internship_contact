@@ -12,12 +12,13 @@ Look for particular contacts
 Contacts should be kept in a persistent JSON file.
 Tkinter's user-friendly interface
 
+# Technologies Used
 Utilized Technologies: Python 3.13.5
 The GUI library Tkinter
 JSON (data storage)
 
 # How to Apply
-Verify that Python 3.14.5 is installed on your computer.
+Verify that Python 3.13.5 is installed on your computer.
 Download the project files or clone this repository.
 Open the project folder.
 To start the application, run the following command:

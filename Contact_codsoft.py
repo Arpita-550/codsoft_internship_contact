@@ -52,7 +52,7 @@ def modify_entry():
     }
     save_data()
     refresh_display()
-    show_popup("updated, 'contact information updated","info")
+    show_popup("updated", "contact information updated","info")
 
 def remove_entry():
     index= display_box.curselection()
@@ -106,7 +106,7 @@ def look_up():
     display_box.delete(0,tk.END)
     for person in contact_list:
         if keyword in person["name"].lower()  or keyword in person["number"]:
-           display_box.insert(tk.end,f"{person['name']}-{person['number']}")
+           display_box.insert(tk.END,f"{person['name']}-{person['number']}")
 
 
 
